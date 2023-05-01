@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;700&family=Quicksand:wght@700&display=swap');
+
+:root {
+    --firstColor: #1b1b1b;
+    --secondColor: #f6f6f6;
+    --thirdColor: #00ff94;
+    --firstFont: 'Quicksand', sans-serif;
+    --secondFont: 'Mulish', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--firstColor);
+    color: var(--secondColor);
+}
+
+.header {
+    padding: 3% 0 0 0;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.headerMenuLink {
+    font-family: var(--secondFont);
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--thirdColor);
+}
+
+.headerMenuLink:hover {
+    color: var(--secondColor);
+}
+
+.presentation {
+    padding: 6% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.presentationImage {
+    padding: 0 0 5% 0;
+    width: 25%;
+}
+
+.presentationContent {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.presentationContentTitle {
+    font-size: 2.5rem;
+    font-family: var(--firstFont);
+}
+
+.titleHighlight {
+    color: var(--thirdColor);
+}
+
+.presentationContentText {
+    font-size: 1.25rem;
+    font-family: var(--secondFont);
+    font-weight: 300;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.presentationContentText a {
+    text-decoration: none;
+    color: var(--thirdColor);
+}
+
+.presentationContentButton {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.presentationContentButtonSubheading {
+    font-size: 1.25rem;
+    font-family: var(--firstFont);
+}
+
+.presentationContentButtonLink {
+    width: 40%;
+    padding: 21.5px 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--secondFont);
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: var(--firstColor);
+    color: var(--thirdColor);
+    border: 2px solid var(--thirdColor);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.presentationContentButtonLink:hover {
+    background-color: var(--thirdColor);
+    color: var(--firstColor);
+    font-weight: 700;
+}
+
+.footer {
+    background-color: var(--thirdColor);
+    color: var(--firstColor);
+    font-family: var(--secondFont);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    font-family: var(--secondFont);
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: var(--firstColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 0 0 0;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 8% 0 2% 0;
+    }
+
+    .presentationImage {
+        width: 35%;
+    }
+
+    .presentationContent {
+        width: auto;
+    }
+}
