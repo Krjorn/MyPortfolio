@@ -9,8 +9,7 @@ Primeiro projeto desenvolvido como parte da formação "HTML e CSS para projetos
 | :rocket: URL         | https://krjorn.github.io/MyPortfolio/
 | :fire: Desafio     | https://cursos.alura.com.br/formacao-html-css
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/Krjorn/MyPortfolio/blob/main/assets/MyPortfolio.png#vitrinedev)
+![Imagem do Projeto](https://github.com/Krjorn/MyPortfolio/blob/main/assets/MyPortfolio.png#vitrinedev)
 
 ## Detalhes do projeto
 
