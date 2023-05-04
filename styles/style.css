@@ -142,6 +142,10 @@ ul {
     padding: 5px 0 0 0;
 }
 
+.footer a:hover {
+    filter: invert(100%);
+}
+
 @media (max-width: 1200px) {
     .header {
         padding: 8% 0 2% 0;
