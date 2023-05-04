@@ -23,20 +23,20 @@ body {
     padding: 3% 0 0 0;
 }
 
-.headerMenu {
+.header__menu {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
 
-.headerMenuLink {
+.header__menu--link {
     font-family: var(--secondFont);
     font-weight: 500;
     text-decoration: none;
     color: var(--thirdColor);
 }
 
-.headerMenuLink:hover {
+.header__menu--link:hover {
     color: var(--secondColor);
 }
 
@@ -48,12 +48,12 @@ body {
     flex-direction: column;
 }
 
-.presentationImage {
+.presentation__image {
     padding: 0 0 5% 0;
     width: 25%;
 }
 
-.presentationContent {
+.presentation__content {
     text-align: center;
     width: 50%;
     display: flex;
@@ -61,16 +61,16 @@ body {
     gap: 35px;
 }
 
-.presentationContentTitle {
+.presentation__content--title {
     font-size: 2.5rem;
     font-family: var(--firstFont);
 }
 
-.titleHighlight {
+.title__highlight {
     color: var(--thirdColor);
 }
 
-.presentationContentText {
+.presentation__content--text {
     font-size: 1.25rem;
     font-family: var(--secondFont);
     font-weight: 300;
@@ -80,23 +80,23 @@ ul {
     list-style-position: inside;
 }
 
-.presentationContentText a {
+.presentation__content--text a {
     text-decoration: none;
     color: var(--thirdColor);
 }
 
-.presentationContentButton {
+.content__button--subheading {
+    font-size: 1.25rem;
+    font-family: var(--firstFont);
+}
+
+.presentation__content--button {
     display: flex;
     justify-content: center;
     gap: 32px;
 }
 
-.presentationContentButtonSubheading {
-    font-size: 1.25rem;
-    font-family: var(--firstFont);
-}
-
-.presentationContentButtonLink {
+.content__button--link {
     width: 40%;
     padding: 21.5px 0;
     text-align: center;
@@ -114,7 +114,7 @@ ul {
     gap: 10px;
 }
 
-.presentationContentButtonLink:hover {
+.content__button--link:hover {
     background-color: var(--thirdColor);
     color: var(--firstColor);
     font-weight: 700;
@@ -151,11 +151,11 @@ ul {
         padding: 8% 0 2% 0;
     }
 
-    .presentationImage {
+    .presentation__image {
         width: 35%;
     }
 
-    .presentationContent {
+    .presentation__content {
         width: auto;
     }
 }
